@@ -1,0 +1,97 @@
+header {
+height: 100px;
+margin: 30px;
+background-image: url("/img/backgroundheader.avif");
+border-radius: 20px;
+opacity: 0.9;
+}
+header h1 {
+padding: 30px;
+}
+body {
+background-color: #dfcae1;
+}
+
+.wrapper {
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+}
+.aside {
+margin-left: 50px;
+background-color: #e5dde6;
+width: 300px;
+height: max-content;
+float: left;
+border-radius: 50px;
+}
+.trof {
+width: 50px;
+float: left;
+}
+.textTrof {
+text-align: center;
+}
+.mid {
+background-color: #e5dde6;
+width: 75%;
+margin: 0 auto;
+border-radius: 50px;
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+footer{
+width:auto;
+margin: 50px;
+opacity: 70%;
+text-align: center;
+}
+
+.container{
+background-color: #e5dde6;
+width: 100%;
+height: 70vh;
+display: flex;
+box-shadow: 5px 5px 10px gray;
+opacity: 0.9;
+}
+
+.input label{
+    margin: 2rem;
+
+}
+.input input {
+margin: 1rem;
+padding: 0.7rem 4rem;
+border: none;
+border-radius: 10px;
+box-shadow: 1px 1px 6px gray;
+}
+
+form{
+background-color: rgba(255, 255, 255, 0.584);
+border-radius: 7px;
+display: inline-block;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.sugestaobtn{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+border: none;
+padding: 10px;
+}
+
+.sugestaobtn button a {
+padding: 40px;
+text-decoration: none;
+color: black;
+}
